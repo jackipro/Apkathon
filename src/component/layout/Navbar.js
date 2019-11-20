@@ -7,8 +7,8 @@ export default function Navbar() {
         <div class="container">
           <div class="navbar-brand">
             <a class="navbar-item" href="../">
-              <h1 className="title is-1">
-                <i class="fas fa-motorcycle"></i> BikeShare
+              <h1 className="title is-1" style={{ color: "#FF9C1A" }}>
+                <i class="fas fa-motorcycle"></i>BikeShare
               </h1>
             </a>
             <span class="navbar-burger burger" data-target="navbarMenu">

@@ -13,7 +13,7 @@ export default function Home() {
         </div>
       </section>
       <div class="box cta"></div>
-      <section class="container">
+      <section>
         <div class="columns features">
           <div class="column is-4">
             <div class="card is-shady">
