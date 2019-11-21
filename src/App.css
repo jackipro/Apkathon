@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .hero-body {
   background: url("component/layout/background.webp") no-repeat fixed;
   background-size: 100% 100%;
@@ -6,13 +9,14 @@
 }
 .showcase {
   font-size: 3.5rem;
-  width: 25rem;
-  margin: 150px 0px;
+
+  text-align: center;
+  margin: 10px 0px;
   padding: 0px;
 }
 
 .fas {
-  margin: 20px 0px;
+  margin: 5px 0px;
 }
 .navbar h1 {
   color: white;
@@ -30,10 +34,32 @@ a.active {
   border-bottom: 2px solid #00b7ffd5;
 }
 .menu {
-  margin: 20px;
-  width: 280px;
+  margin: 20px 30px;
+  width: 450px;
 }
 .box-post {
   display: flex;
-  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 500px;
+}
+
+.content h4 {
+  text-align: center;
+}
+.media-content {
+  overflow: hidden;
+}
+.post {
+  max-width: 90%;
+  margin: 0px 30px;
+}
+.post p {
+  margin: 0px 20px;
+
+  text-align: justify;
+}
+.addpost {
+  margin: 20px;
 }

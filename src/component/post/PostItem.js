@@ -4,7 +4,7 @@ export default function PostItem() {
   return (
     <div>
       <br />
-      <div class="box">
+      <div class="box post">
         <article class="media">
           <div class="media-left">
             <figure class="image is-64x64">
@@ -17,12 +17,16 @@ export default function PostItem() {
           <div class="media-content">
             <div class="content">
               <p>
-                <strong>John Smith</strong> <small>@johnsmith</small>{" "}
+                <strong>John Smith</strong> <small>@johnsmith</small>
                 <small>31m</small>
                 <br />
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                 efficitur sit amet massa fringilla egestas. Nullam condimentum
-                luctus turpis.
+                luctus turpis. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. . Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Aenean efficitur sit amet massa fringilla
+                egestas. Nullam condimentum
               </p>
             </div>
             <nav class="level is-mobile">

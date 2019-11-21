@@ -5,14 +5,14 @@ export default function Home() {
       <section class="hero is-info is-medium is-bold">
         <div class="hero-head"></div>
         <div class="hero-body">
-          <div class="container has-text-centered">
-            <h1 className="title showcase">
-              Welcome to<span style={{ color: "#FF9C1A" }}> BikeShare</span>
-            </h1>
-          </div>
+          <div class="container has-text-centered"></div>
         </div>
       </section>
-      <div class="box cta"></div>
+      <div class="box cta">
+        <h1 className="title showcase">
+          Welcome to<span style={{ color: "#FF9C1A" }}> BikeShare</span>
+        </h1>
+      </div>
       <section>
         <div class="columns features">
           <div class="column is-4">
@@ -24,8 +24,10 @@ export default function Home() {
                 <div class="content">
                   <h4>Tiện Lợi</h4>
                   <p>
-                  BikeShare hướng đến nhu cầu chia sẻ đường đi đã có kế hoạch sẳn dành cho những ai có nhu cầu di chuyển cùng.
-                  Giao diện thân thiện, dễ dàng thao tác và khả năng an toàn cao vì BikeShare chỉ áp dụng cho các sinh viên.
+                    BikeShare hướng đến nhu cầu chia sẻ đường đi đã có kế hoạch
+                    sẳn dành cho những ai có nhu cầu di chuyển cùng. Giao diện
+                    thân thiện, dễ dàng thao tác và khả năng an toàn cao vì
+                    BikeShare chỉ áp dụng cho các sinh viên.
                   </p>
                 </div>
               </div>
@@ -40,8 +42,10 @@ export default function Home() {
                 <div class="content">
                   <h4>Giới Thiệu</h4>
                   <p>
-                    Nhu cầu đi lại thường ngày đã trở thành một phần không thể thiếu với nhiều đối tượng, nhất là sinh viên. 
-                    BikeShare mang lại khả năng chia sẻ những chuyến đi, tăng thu nhập hoặc giảm chi phí đi lại cho sinh viên.
+                    Nhu cầu đi lại thường ngày đã trở thành một phần không thể
+                    thiếu với nhiều đối tượng, nhất là sinh viên. BikeShare mang
+                    lại khả năng chia sẻ những chuyến đi, tăng thu nhập hoặc
+                    giảm chi phí đi lại cho sinh viên.
                   </p>
                 </div>
               </div>
@@ -56,7 +60,10 @@ export default function Home() {
                 <div class="content">
                   <h4> Mục Tiêu </h4>
                   <p>
-                    BikeShare hướng đến tính an toàn cũng như khả năng bảo mật cao cấp hơn và trong tương lai sẽ áp dụng những công nghệ hiện đại, tiện ích cao và khả năng tương tác dễ dàng hơn với người dùng.
+                    BikeShare hướng đến tính an toàn cũng như khả năng bảo mật
+                    cao cấp hơn và trong tương lai sẽ áp dụng những công nghệ
+                    hiện đại, tiện ích cao và khả năng tương tác dễ dàng hơn với
+                    người dùng.
                   </p>
                 </div>
               </div>
