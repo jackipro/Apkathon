@@ -24,13 +24,8 @@ export default function Home() {
                 <div class="content">
                   <h4>Tiện Lợi</h4>
                   <p>
-                    Purus semper eget duis at tellus at urna condimentum mattis.
-                    Non blandit massa enim nec. Integer enim neque volutpat ac
-                    tincidunt vitae semper quis. Accumsan tortor posuere ac ut
-                    consequat semper viverra nam.
-                  </p>
-                  <p>
-                    <a href="#">Learn more</a>
+                  BikeShare hướng đến nhu cầu chia sẽ đường đi đã có kế hoạch sẳn dành cho những ai có nhu cầu di chuyển cùng.
+                  Giao diện thân thiện, dễ dàng thao tác. Và khả năng an toàn cao vì BikeShare chỉ áp dụng cho các sinh viên.
                   </p>
                 </div>
               </div>
@@ -45,14 +40,8 @@ export default function Home() {
                 <div class="content">
                   <h4>Giới Thiệu</h4>
                   <p>
-                    Ut venenatis tellus in metus vulputate. Amet consectetur
-                    adipiscing elit pellentesque. Sed arcu non odio euismod
-                    lacinia at quis risus. Faucibus turpis in eu mi bibendum
-                    neque egestas cmonsu songue. Phasellus vestibulum lorem sed
-                    risus.
-                  </p>
-                  <p>
-                    <a href="#">Learn more</a>
+                    Nhu cầu đi lại thường ngày đã trở thành một phần không thể thiếu với nhiều đối tượng, nhất là sinh viên. 
+                    BikeShare mạng lại khả năng chia sẽ những chuyến đi, tăng thu nhập hoặc giảm chi phí đi lại cho sinh viên.
                   </p>
                 </div>
               </div>
@@ -67,13 +56,8 @@ export default function Home() {
                 <div class="content">
                   <h4> Mục Tiêu </h4>
                   <p>
-                    Imperdiet dui accumsan sit amet nulla facilisi morbi. Fusce
-                    ut placerat orci nulla pellentesque dignissim enim. Libero
-                    id faucibus nisl tincidunt eget nullam. Commodo viverra
-                    maecenas accumsan lacus vel facilisis.
-                  </p>
-                  <p>
-                    <a href="#">Learn more</a>
+                    BikeShare hướng đến tính an toàn cũng như khả năng bảo mật cao cấp hơn.
+                    Và trong tương lai sẽ áp dụng những công nghệ hiện đại, tiện ích cao và khả năng tương tác dễ dàng hơn với người dùng.
                   </p>
                 </div>
               </div>
