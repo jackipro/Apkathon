@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function PostItem() {
   return (
     <div>
@@ -17,37 +17,84 @@ export default function PostItem() {
           <div class="media-content">
             <div class="content">
               <p>
-                <strong>John Smith</strong> <small>@johnsmith</small>
-                <small>31m</small>
+                <strong>Trần Tiến</strong>
                 <br />
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                efficitur sit amet massa fringilla egestas. Nullam condimentum
-                luctus turpis. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. . Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Aenean efficitur sit amet massa fringilla
-                egestas. Nullam condimentum
+                <small>Điểm đi: Quận 1, Thành Phố HCM</small>
+                <br />
+                <small>Điểm đến: Quận Bình Thạnh, Thành Phố HCM</small>
+                <br />
+                <small>25/12/2019</small>
+                <br />
+                <small>7:00AM</small>
+                <br />
               </p>
+              <Link to="/postdetail" class="button is-primary is-outlined">
+                Xem chi tiết chuyến đi
+              </Link>
             </div>
-            <nav class="level is-mobile">
-              <div class="level-left">
-                <a class="level-item" aria-label="reply">
-                  <span class="icon is-small">
-                    <i class="fas fa-reply" aria-hidden="true"></i>
-                  </span>
-                </a>
-                <a class="level-item" aria-label="retweet">
-                  <span class="icon is-small">
-                    <i class="fas fa-retweet" aria-hidden="true"></i>
-                  </span>
-                </a>
-                <a class="level-item" aria-label="like">
-                  <span class="icon is-small">
-                    <i class="fas fa-heart" aria-hidden="true"></i>
-                  </span>
-                </a>
-              </div>
-            </nav>
+          </div>
+        </article>
+      </div>
+      <div class="box post">
+        <article class="media">
+          <div class="media-left">
+            <figure class="image is-64x64">
+              <img
+                src="https://bulma.io/images/placeholders/128x128.png"
+                alt="Image"
+              />
+            </figure>
+          </div>
+          <div class="media-content">
+            <div class="content">
+              <p>
+                <strong>Trần Tiến</strong>
+                <br />
+                <small>Điểm đi: Quận 1, Thành Phố HCM</small>
+                <br />
+                <small>Điểm đến: Quận Bình Thạnh, Thành Phố HCM</small>
+                <br />
+                <small>25/12/2019</small>
+                <br />
+                <small>7:00AM</small>
+                <br />
+              </p>
+              <button class="button is-primary is-outlined">
+                Xem chi tiết chuyến đi
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="box post">
+        <article class="media">
+          <div class="media-left">
+            <figure class="image is-64x64">
+              <img
+                src="https://bulma.io/images/placeholders/128x128.png"
+                alt="Image"
+              />
+            </figure>
+          </div>
+          <div class="media-content">
+            <div class="content">
+              <p>
+                <strong>Trần Tiến</strong>
+                <br />
+                <small>Điểm đi: Quận 1, Thành Phố HCM</small>
+                <br />
+                <small>Điểm đến: Quận Bình Thạnh, Thành Phố HCM</small>
+                <br />
+                <small>25/12/2019</small>
+                <br />
+                <small>7:00AM</small>
+                <br />
+              </p>
+
+              <Link to="/about" class="button is-primary is-outlined">
+                Xem chi tiết chuyến đi
+              </Link>
+            </div>
           </div>
         </article>
       </div>

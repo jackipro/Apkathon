@@ -4,7 +4,7 @@ import Home from "./component/layout/Home";
 import Navbar from "./component/layout/Navbar";
 import About from "./component/pages/About";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Post from "./component/post/Post";
+import Post from "./component/Post/Post";
 
 export default class App extends Component {
   render() {
