@@ -63,3 +63,10 @@ a.active {
 .addpost {
   margin: 20px;
 }
+.post-list {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.tabs-post {
+  margin: 30px;
+}

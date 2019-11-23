@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div>
-      <nav class="navbar" style={{ background: "#3298dc" }}>
+      <nav class="navbar is-primary">
         <div class="container">
           <div class="navbar-brand">
             <a class="navbar-item" href="../">
-              <h1 className="title is-1" style={{ color: "#FF9C1A" }}>
-                <i class="fas fa-motorcycle"></i>BikeShare
+              <h1 className="title is-1" style={{ color: "white" }}>
+                <img href="bike.jpg" /> BikeShare
               </h1>
             </a>
             <span class="navbar-burger burger" data-target="navbarMenu">

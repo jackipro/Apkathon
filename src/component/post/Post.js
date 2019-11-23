@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import PostItem from "./PostItem";
+import PostListControll from "./PostListControll";
 import PostClose from "./PostClose";
-import AddPost from "./AddPost";
 import PostDetail from "./PostDetail";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+import AddPostControll from "./AddPostControll";
 export default class Post extends Component {
   render() {
     return (
       <Router>
         <div>
-          <div class="tabs is-toggle is-fullwidth is-large">
+          <div class="tabs is-toggle is-fullwidth is-large tabs-post">
             <ul>
               <li activeClassName="active hover">
                 <NavLink to="/post" activeClassName="active hover">
@@ -23,7 +23,7 @@ export default class Post extends Component {
                 </NavLink>
               </li>
               <li activeClassName="active hover">
-                <NavLink to="/addpost" activeClassName="active hover">
+                <NavLink to="/addpostcontroll" activeClassName="active hover">
                   <span>Đăng Chuyến Đi Mới</span>
                 </NavLink>
               </li>
@@ -32,9 +32,9 @@ export default class Post extends Component {
         </div>
 
         <Switch>
-          <Route exact path="/post" component={PostItem} />
+          <Route exact path="/post" component={PostListControll} />
           <Route exact path="/postclose" component={PostClose} />
-          <Route exact path="/addpost" component={AddPost} />
+          <Route exact path="/addpostcontroll" component={AddPostControll} />
           <Route exact path="/postdetail" component={PostDetail} />
         </Switch>
       </Router>

@@ -10,7 +10,7 @@ export default function Home() {
       </section>
       <div class="box cta">
         <h1 className="title showcase">
-          Welcome to<span style={{ color: "#FF9C1A" }}> BikeShare</span>
+          Welcome to<span style={{ color: "#0FE4AB" }}> BikeShare</span>
         </h1>
       </div>
       <section>
